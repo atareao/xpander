@@ -98,7 +98,8 @@ class ManagerUI(Gtk.Window):
         remove_icon = Gtk.Image.new_from_icon_name('list-remove-symbolic', 0)
         remove_button = Gtk.Button()
         remove_button.add_accelerator(
-            'clicked', self.gui_hotkeys, Gdk.KEY_Delete, 0,  # No modifier mask
+            'clicked', self.gui_hotkeys, Gdk.KEY_Delete,
+            Gdk.ModifierType.CONTROL_MASK,
             Gtk.AccelFlags.VISIBLE)
         remove_button.add(remove_icon)
         toolbar.pack_end(remove_button, False, False, 0)
