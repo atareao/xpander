@@ -1,0 +1,33 @@
+Source: xpander
+Section: utils
+Priority: extra
+Maintainer: Lorenzo Carbonell Cerezo <lorenzo.carbonell.cerezo@gmail.com>
+Build-Depends: debhelper (>= 9), python
+Standards-Version: 3.9.4
+Homepage: http://www.atareao.es
+
+Package: xapander
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends},
+    python3,
+    python3-gi,
+    gir1.2-gtk-3.0,
+    gir1.2-gdkpixbuf-2.0,
+    gir1.2-webkit-3.0,
+    python3-requests,
+    python3-lxml
+Description: Text expander for Linux written in python.
+ You type an abbreviation and it's automatically expanded to a predefined block
+ of text called a phrase. This is useful when filling out forms, coding
+ and whenever else you need to write the same block of text over and over.
+ Each phrase is stored as JSON file in a user configurable directory, default
+ is ~/.phrases.
+ Xpander features full support for multiple keyboard layouts (up to 4),
+ filtering by window and token expansion:
+ * $| marks where cursor will be placed after expansion;
+ * $C is replaced by clipboard contents;
+ You can also mark a phrase as a command. In this case phrase contents are
+ interpreted as command line and it's output pasted instead.
+ When putting tabs in phrase body and setting sending method as keyboard
+ actual Tab keypresses are sent. This means you can fill several form fields in
+ one go, simply by separating with tabs.
