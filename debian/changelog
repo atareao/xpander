@@ -1,3 +1,9 @@
+xpander (1.0.2-0extras18.10.0) cosmic; urgency=medium
+
+  * Added translations and some minor features
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 24 Feb 2019 10:57:19 +0100
+
 xpander (1.0.0-beta1-0extras16.04.5) xenial; urgency=medium
 
   * Changed shorcut for "remove phrase"

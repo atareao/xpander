@@ -7,7 +7,7 @@ import queue
 from Xlib import X, display
 from Xlib.ext import record
 from Xlib.protocol import rq, event
-from . import shared, CONSTANTS
+import shared, CONSTANTS
 
 
 class Interface(object):

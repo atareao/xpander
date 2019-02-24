@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
 
+import gi
+try:
+    gi.require_version('GObject', '2.0')
+except Exception as e:
+    print(e)
+    exit(1)
 import os
 import shutil
 import json
-from . import shared
+import shared
+from comun import EXAMPLESDIR
 
 
 class Config(object):
@@ -38,7 +45,7 @@ class Phrases(object):
         shared.phrases = []
         shared.phrase_paths = {}
         if not os.path.isdir(shared.config['phrases_dir']):
-            source = os.path.join(os.path.dirname(__file__), 'Examples')
+            source = EXAMPLESDIR
             shutil.copytree(
                 source, os.path.join(shared.config['phrases_dir'], 'Examples'))
         self.load_phrases()

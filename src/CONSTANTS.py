@@ -2,7 +2,7 @@
 # You shouldn't edit this file directly.
 
 from Xlib import XK
-from . import KEYSYMDEF
+import KEYSYMDEF
 _keysyms = [name for name in dir(KEYSYMDEF)]
 for keysym in _keysyms:
     XK.__dict__[keysym] = KEYSYMDEF.__dict__[keysym]

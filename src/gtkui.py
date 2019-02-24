@@ -7,11 +7,16 @@ import threading
 import gi
 try:
     gi.require_version('Gtk', '3.0')
+    gi.require_version('GObject', '2.0')
 except Exception as e:
     print(e)
     exit(-1)
-from gi.repository import Gtk, Gdk, GLib
-from . import shared, CONSTANTS
+from gi.repository import Gtk
+from gi.repository import Gdk
+from gi.repository import GLib
+from gi.repository import GObject
+import shared, CONSTANTS
+from comun import _
 
 RESERVED_CHARS = '/\\<>:;*$%!?'
 _SEND = {'Keyboard': 0,
@@ -21,6 +26,10 @@ SEND = collections.OrderedDict(sorted(_SEND.items(), key=lambda x: x[1]))
 
 
 class ManagerUI(Gtk.Window):
+    __gsignals__ = {
+        'saved_config': (GObject.SIGNAL_RUN_FIRST,
+                         GObject.TYPE_NONE, ()),
+    }
 
     def __init__(self):
 
@@ -127,12 +136,12 @@ class ManagerUI(Gtk.Window):
             column_spacing=6, row_spacing=6, margin=6)
         self.right_grid.set_sensitive(False)
         self.plain_text = Gtk.RadioButton.new_with_mnemonic_from_widget(
-            None, '_Plain text')
+            None, _('_Plain text'))
         self.right_grid.attach(self.plain_text, 0, 0, 1, 1)
         self.command = Gtk.RadioButton.new_with_label_from_widget(
-            self.plain_text, 'Command')
+            self.plain_text, _('Command'))
         self.right_grid.attach(self.command, 1, 0, 1, 1)
-        text_wrap = Gtk.CheckButton.new_with_mnemonic('_Wrap text')
+        text_wrap = Gtk.CheckButton.new_with_mnemonic(_('_Wrap text'))
         self.right_grid.attach(text_wrap, 5, 0, 1, 1)
         scrollable_textview = Gtk.ScrolledWindow()
         scrollable_textview.set_hexpand(True)
@@ -142,15 +151,15 @@ class ManagerUI(Gtk.Window):
         scrollable_textview.add(self.textview)
         self.right_grid.attach(scrollable_textview, 0, 1, 6, 5)
         token_label = Gtk.Label(
-            '$| marks cursor position. $C inserts clipboard contents.')
+            _('$| marks cursor position. $C inserts clipboard contents.'))
         self.right_grid.attach(token_label, 0, 6, 3, 1)
-        string_label = Gtk.Label.new_with_mnemonic('_Abbreviation:')
+        string_label = Gtk.Label.new_with_mnemonic(_('_Abbreviation:'))
         self.right_grid.attach(string_label, 0, 7, 1, 1)
         self.string = Gtk.Entry(max_length=128)
         string_label.set_mnemonic_widget(self.string)
         self.right_grid.attach_next_to(
             self.string, string_label, Gtk.PositionType.RIGHT, 2, 1)
-        send_label = Gtk.Label.new_with_mnemonic('_Send via:')
+        send_label = Gtk.Label.new_with_mnemonic(_('_Send via:'))
         self.right_grid.attach(send_label, 3, 7, 1, 1)
         self.send = Gtk.ComboBoxText()
         send_label.set_mnemonic_widget(self.send)
@@ -160,29 +169,29 @@ class ManagerUI(Gtk.Window):
         self.right_grid.attach_next_to(
             self.send, send_label, Gtk.PositionType.RIGHT, 2, 1)
         filter_class_label = Gtk.Label.new_with_mnemonic(
-            'Filter by window _class:')
+            _('Filter by window _class:'))
         self.right_grid.attach(filter_class_label, 0, 8, 1, 1)
         self.filter_class = Gtk.Entry()
         self.right_grid.attach_next_to(self.filter_class, filter_class_label,
                                        Gtk.PositionType.RIGHT, 2, 1)
-        set_filter_class = Gtk.ToggleButton('Select')
+        set_filter_class = Gtk.ToggleButton(_('Select'))
         filter_class_label.set_mnemonic_widget(set_filter_class)
         self.right_grid.attach_next_to(
             set_filter_class, self.filter_class, Gtk.PositionType.RIGHT, 1, 1)
         filter_title_label = Gtk.Label.new_with_mnemonic(
-            '_Filter by window title:')
+            _('_Filter by window title:'))
         self.right_grid.attach(filter_title_label, 0, 9, 1, 1)
         self.filter_title = Gtk.Entry()
         self.right_grid.attach_next_to(self.filter_title, filter_title_label,
                                        Gtk.PositionType.RIGHT, 2, 1)
-        set_filter_title = Gtk.ToggleButton('Select')
+        set_filter_title = Gtk.ToggleButton(_('Select'))
         filter_title_label.set_mnemonic_widget(set_filter_title)
         self.right_grid.attach_next_to(
             set_filter_title, self.filter_title, Gtk.PositionType.RIGHT, 1, 1)
-        self.filter_case = Gtk.CheckButton.new_with_mnemonic('Case _sensitive')
+        self.filter_case = Gtk.CheckButton.new_with_mnemonic(_('Case _sensitive'))
         self.right_grid.attach_next_to(
             self.filter_case, set_filter_title, Gtk.PositionType.RIGHT, 1, 1)
-        save_phrase = Gtk.Button('Save')
+        save_phrase = Gtk.Button(_('Save'))
         save_phrase.add_accelerator(
             'clicked', self.gui_hotkeys, Gdk.KEY_s,
             Gdk.ModifierType.CONTROL_MASK, Gtk.AccelFlags.VISIBLE)
@@ -190,17 +199,17 @@ class ManagerUI(Gtk.Window):
 
         # Preferences
         phrase_dir_label = Gtk.Label.new_with_mnemonic(
-            'Phrase _directory (needs restart)')
+            _('Phrase _directory (needs restart)'))
         phrase_dir_label.set_xalign(0)
         prefs_grid.attach(phrase_dir_label, 0, 0, 2, 1)
         phrase_dir = Gtk.FileChooserButton.new(
-            'Phrase directory', Gtk.FileChooserAction.SELECT_FOLDER)
+            _('Phrase directory'), Gtk.FileChooserAction.SELECT_FOLDER)
         phrase_dir.set_create_folders(True)
         phrase_dir.set_current_folder(shared.config['phrases_dir'])
         phrase_dir_label.set_mnemonic_widget(phrase_dir)
         prefs_grid.attach(phrase_dir, 4, 0, 1, 1)
         indicator_theme_label = Gtk.Label.new_with_mnemonic(
-            'Prefer light _indicator icon theme (needs restart)')
+            _('Prefer light _indicator icon theme'))
         prefs_grid.attach(indicator_theme_label, 0, 1, 2, 1)
         indicator_theme = Gtk.Switch()
         indicator_theme.set_active(shared.config['indicator_theme_light'])
@@ -209,7 +218,7 @@ class ManagerUI(Gtk.Window):
         hbox.pack_start(indicator_theme, False, False, 0)
         prefs_grid.attach(hbox, 4, 1, 1, 1)
         folder_warning_label = Gtk.Label.new_with_mnemonic(
-            '_Warn when deleting a folder')
+            _('_Warn when deleting a folder'))
         folder_warning_label.set_xalign(0)
         prefs_grid.attach(folder_warning_label, 0, 2, 2, 1)
         folder_warning_switch = Gtk.Switch()
@@ -219,7 +228,7 @@ class ManagerUI(Gtk.Window):
         hbox.pack_start(folder_warning_switch, False, False, 0)
         prefs_grid.attach(hbox, 4, 2, 1, 1)
         pause_expansion_label = Gtk.Label.new_with_mnemonic(
-            '_Pause expansion')
+            _('_Pause expansion'))
         pause_expansion_label.set_xalign(0)
         prefs_grid.attach(pause_expansion_label, 0, 5, 1, 1)
         self.pause_expansion = Gtk.Entry()
@@ -231,11 +240,11 @@ class ManagerUI(Gtk.Window):
         else:
             self.pause_expansion.set_text('')
         prefs_grid.attach(self.pause_expansion, 2, 5, 2, 1)
-        pause_expansion_set = Gtk.Button('Set')
+        pause_expansion_set = Gtk.Button(_('Set'))
         pause_expansion_label.set_mnemonic_widget(pause_expansion_set)
         prefs_grid.attach(pause_expansion_set, 4, 5, 1, 1)
         show_manager_label = Gtk.Label.new_with_mnemonic(
-            '_Show manager')
+            _('_Show manager'))
         show_manager_label.set_xalign(0)
         prefs_grid.attach(show_manager_label, 0, 6, 1, 1)
         self.show_manager = Gtk.Entry()
@@ -247,7 +256,7 @@ class ManagerUI(Gtk.Window):
         else:
             self.show_manager.set_text('')
         prefs_grid.attach(self.show_manager, 2, 6, 2, 1)
-        show_manager_set = Gtk.Button('Set')
+        show_manager_set = Gtk.Button(_('Set'))
         show_manager_label.set_mnemonic_widget(show_manager_set)
         prefs_grid.attach(show_manager_set, 4, 6, 1, 1)
 
@@ -327,9 +336,9 @@ class ManagerUI(Gtk.Window):
                     dialog = Gtk.MessageDialog(self, 0,
                                                Gtk.MessageType.WARNING,
                                                Gtk.ButtonsType.OK,
-                                               'Illegal characters')
+                                               _('Illegal characters'))
                     dialog.format_secondary_text(
-                        '/\\<>:;*$%!?' + ' are not allowed.')
+                        '/\\<>:;*$%!?' + _(' are not allowed.'))
                     response = dialog.run()
                     print(response)
                     dialog.destroy()
@@ -435,11 +444,11 @@ class ManagerUI(Gtk.Window):
             path = model[tree_iter][1]
         else:
             path = '.'
-        name = 'New_phrase'
+        name = _('New_phrase')
         name_count = 0
         while not self.name_unique(model, name):
             name_count += 1
-            name = 'New_phrase' + str(name_count)
+            name = _('New_phrase') + str(name_count)
         shared.pmanager.new_phrase(name, '', '', False, 0, None, None, path)
         self.treestore.append(
             tree_iter, ['document', name, '', self.color_disabled])
@@ -449,11 +458,11 @@ class ManagerUI(Gtk.Window):
 
         model, tree_iter = self.selection.get_selected()
         tree_iter = None
-        name = 'New folder'
+        name = _('New folder')
         name_count = 0
         while not self.name_unique(model, name):
             name_count += 1
-            name = 'New folder' + ' ' + str(name_count)
+            name = _('New folder') + ' ' + str(name_count)
         self.treestore.append(
             tree_iter, ['folder', name, '', self.color_normal])
         self.sort_treeview()
@@ -471,9 +480,9 @@ class ManagerUI(Gtk.Window):
             if shared.config['warn_folder_delete']:
                 dialog = Gtk.MessageDialog(self, 0, Gtk.MessageType.WARNING,
                                            Gtk.ButtonsType.OK_CANCEL,
-                                           'Delete folder')
+                                           _('Delete folder'))
                 dialog.format_secondary_text(
-                    'This will also delete the phrases in this folder.')
+                    _('This will also delete the phrases in this folder.'))
                 response = dialog.run()
                 if response == Gtk.ResponseType.CANCEL:
                     remove_folder = False
@@ -582,9 +591,9 @@ class ManagerUI(Gtk.Window):
         shared.cmanager.edit('phrases_dir', widget.get_filename())
         shared.cmanager.write_config()
         dialog = Gtk.MessageDialog(self, 0, Gtk.MessageType.WARNING,
-                                   Gtk.ButtonsType.OK, 'Restart app')
-        dialog.format_secondary_text('Phrase editing and creation will not \
-function corectly until application is restarted.')
+                                   Gtk.ButtonsType.OK, _('Restart app'))
+        dialog.format_secondary_text(_('Phrase editing and creation will not \
+function corectly until application is restarted.'))
         dialog.run()
         dialog.destroy()
 
@@ -592,6 +601,8 @@ function corectly until application is restarted.')
 
         shared.cmanager.edit('indicator_theme_light', widget.get_active())
         shared.cmanager.write_config()
+        self.emit('saved_config')
+
 
     def folder_warning_toggle(self, widget, pspec):
 

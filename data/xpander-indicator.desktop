@@ -2,7 +2,7 @@
 Name=xpander
 GenericName=Text Expander
 Comment=Universal snippets and text expansion
-Exec=xpander-indicator
+Exec=/opt/extras.ubuntu.com/xpander/bin/xpander
 Terminal=false
 Type=Application
 Icon=xpander

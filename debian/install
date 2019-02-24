@@ -1,0 +1,6 @@
+data/icons/*.svg /usr/share/icons/hicolor/scalable/apps
+data/*.desktop /usr/share/applications
+bin/xpander /opt/extras.ubuntu.com/xpander/bin
+src/*.py /opt/extras.ubuntu.com/xpander/share/xpander
+data/Examples /opt/extras.ubuntu.com/xpander/etc/xpander
+debian/changelog /opt/extras.ubuntu.com/xpander/share/xpander
