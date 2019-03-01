@@ -1,7 +1,7 @@
-# Spanish translations for cpu-g package.
+# Basque translations for xpander package.
 # Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the cpu-g package.
-# Lorenzo <lorenzo.carbonell.cerezo@gmail.com>, 2019.
+# This file is distributed under the same license as the xpander package.
+# Xabi <xlizarralde@gmail.com>, 2019.
 #
 msgid ""
 msgstr ""
@@ -9,22 +9,22 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-24 09:40+0100\n"
 "PO-Revision-Date: 2019-02-28 10:53+0100\n"
-"Language-Team: Spanish\n"
+"Language-Team: Basque\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.2.1\n"
-"Last-Translator: \n"
+"Last-Translator: Xabi <xlizarralde@gmail.com>\n"
 "Language: eu_ES\n"
 
 #: src/xpander.py:39
 msgid "Pause Expansion"
-msgstr ""
+msgstr "Zabaltzea eten"
 
 #: src/xpander.py:41
 msgid "Manager"
-msgstr ""
+msgstr "Konfigurazioa"
 
 #: src/xpander.py:43
 msgid "Quit"
@@ -32,7 +32,7 @@ msgstr "Irten"
 
 #: src/gtkui.py:139
 msgid "_Plain text"
-msgstr ""
+msgstr "Testu _laua"
 
 #: src/gtkui.py:142
 msgid "Command"
@@ -40,23 +40,23 @@ msgstr "Komandoa"
 
 #: src/gtkui.py:144
 msgid "_Wrap text"
-msgstr ""
+msgstr "Testu _bilgarria"
 
 #: src/gtkui.py:154
 msgid "$| marks cursor position. $C inserts clipboard contents."
-msgstr ""
+msgstr "$| kurtsorearen posizioa markatzen du. $C paper-zorroaren edukia txertatzen du."
 
 #: src/gtkui.py:156
 msgid "_Abbreviation:"
-msgstr ""
+msgstr "_Laburdura"
 
 #: src/gtkui.py:162
 msgid "_Send via:"
-msgstr ""
+msgstr "_Bialdu via"
 
 #: src/gtkui.py:172
 msgid "Filter by window _class:"
-msgstr ""
+msgstr "Filtratu leihoaren _klase arabera"
 
 #: src/gtkui.py:177 src/gtkui.py:187
 msgid "Select"
@@ -64,11 +64,11 @@ msgstr "Aukeratu"
 
 #: src/gtkui.py:182
 msgid "_Filter by window title:"
-msgstr ""
+msgstr "_Filtratu leihoaren tituloaren arabera"
 
 #: src/gtkui.py:191
 msgid "Case _sensitive"
-msgstr ""
+msgstr "Maiuskula eta minuskulak bereizten ditu"
 
 #: src/gtkui.py:194
 msgid "Save"
@@ -76,7 +76,7 @@ msgstr "Gorde"
 
 #: src/gtkui.py:202
 msgid "Phrase _directory (needs restart)"
-msgstr ""
+msgstr "Esaldien _direktorioa (berrabiarazteko beharra)"
 
 #: src/gtkui.py:206
 msgid "Phrase directory"
@@ -84,23 +84,23 @@ msgstr "Esaldien direktorioa"
 
 #: src/gtkui.py:212
 msgid "Prefer light _indicator icon theme"
-msgstr ""
+msgstr "_Adierazlearen tema argia nahiago duzu"
 
 #: src/gtkui.py:221
 msgid "_Warn when deleting a folder"
-msgstr ""
+msgstr "_Abisatu karpeta bat ezabatzerakoan"
 
 #: src/gtkui.py:231
 msgid "_Pause expansion"
-msgstr ""
+msgstr "Zabaltzea _eten"
 
 #: src/gtkui.py:243 src/gtkui.py:259
 msgid "Set"
-msgstr ""
+msgstr "Ezarri"
 
 #: src/gtkui.py:247
 msgid "_Show manager"
-msgstr ""
+msgstr "Konfigurazioa _erakutsi"
 
 #: src/gtkui.py:339
 msgid "Illegal characters"
