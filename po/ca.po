@@ -1,0 +1,455 @@
+# Catalan translations for cpu-g package.
+# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the cpu-g package.
+# Marcel <marcelcosta@mcosta.cat>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xpander - 0.15.2-1ubuntu0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-02 09:02+0100\n"
+"PO-Revision-Date: 2019-03-02 09:02+0100\n"
+"Last-Translator: Marcel <marcelcosta@mcosta.cat>\n"
+"Language-Team: Catalan\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/xpander.py:39
+msgid "Pause Expansion"
+msgstr "Pausar Expansió"
+
+#: src/xpander.py:41
+msgid "Manager"
+msgstr "Configuració"
+
+#: src/xpander.py:43
+msgid "Quit"
+msgstr "Sortir"
+
+#: src/gtkui.py:139
+msgid "_Plain text"
+msgstr "Text _pla"
+
+#: src/gtkui.py:142
+msgid "Command"
+msgstr "Ordre"
+
+#: src/gtkui.py:144
+msgid "_Wrap text"
+msgstr "Text _envoltori"
+
+#: src/gtkui.py:154
+msgid "$| marks cursor position. $C inserts clipboard contents."
+msgstr "$| marca la posició del cursor. $C enganxa el contingut del porta-retalls"
+
+#: src/gtkui.py:156
+msgid "_Abbreviation:"
+msgstr "_Abreviatura"
+
+#: src/gtkui.py:162
+msgid "_Send via:"
+msgstr "Enviar _via:"
+
+#: src/gtkui.py:172
+msgid "Filter by window _class:"
+msgstr "Filtrar per _classe de finestra:"
+
+#: src/gtkui.py:177 src/gtkui.py:187
+msgid "Select"
+msgstr "Selecciona"
+
+#: src/gtkui.py:182
+msgid "_Filter by window title:"
+msgstr "_Filtra pel títol de la finestra"
+
+#: src/gtkui.py:191
+msgid "Case _sensitive"
+msgstr "_Sensible a majúscules i minúscules"
+
+#: src/gtkui.py:194
+msgid "Save"
+msgstr "Guardar"
+
+#: src/gtkui.py:202
+msgid "Phrase _directory (needs restart)"
+msgstr "_Directori de frases (necessita reiniciar)"
+
+#: src/gtkui.py:206
+msgid "Phrase directory"
+msgstr "Directori de frases"
+
+#: src/gtkui.py:212
+msgid "Prefer light _indicator icon theme"
+msgstr "Prefereixes el tema de icones clar per l'_indicador"
+
+#: src/gtkui.py:221
+msgid "_Warn when deleting a folder"
+msgstr "_Avisa'm quan vagi a borrar una carpeta"
+
+#: src/gtkui.py:231
+msgid "_Pause expansion"
+msgstr "_Pausar l'expansió"
+
+#: src/gtkui.py:243 src/gtkui.py:259
+msgid "Set"
+msgstr "Establir"
+
+#: src/gtkui.py:247
+msgid "_Show manager"
+msgstr "Mostrar la configuració"
+
+#: src/gtkui.py:339
+msgid "Illegal characters"
+msgstr "Caràcters il·legals"
+
+#: src/gtkui.py:341
+msgid " are not allowed."
+msgstr " no estan permesos"
+
+#: src/gtkui.py:447 src/gtkui.py:451
+msgid "New_phrase"
+msgstr "Nova_frase"
+
+#: src/gtkui.py:461 src/gtkui.py:465
+msgid "New folder"
+msgstr "Nova carpeta"
+
+#: src/gtkui.py:483
+msgid "Delete folder"
+msgstr "Eliminar carpeta"
+
+#: src/gtkui.py:485
+msgid "This will also delete the phrases in this folder."
+msgstr "Això també eliminarà les frases d'aquesta carpeta."
+
+#: src/gtkui.py:594
+msgid "Restart app"
+msgstr "Reiniciar l'applicació."
+
+#: src/gtkui.py:595
+msgid ""
+"Phrase editing and creation will not function corectly until application is "
+"restarted."
+msgstr ""
+"La creació i edició de la frase no funcionarà correctament fins que l'aplicació sigui"
+"reiniciada."
+
+#~ msgid "Processor"
+#~ msgstr "Processador"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Vendor"
+#~ msgstr "Fabricant"
+
+#~ msgid "Model"
+#~ msgstr "Model"
+
+#~ msgid "Core Speed"
+#~ msgstr "Velocitat del nucli"
+
+#~ msgid "CPU"
+#~ msgstr "CPU"
+
+#~ msgid "Family"
+#~ msgstr "Família"
+
+#~ msgid "Level 2"
+#~ msgstr "Nivell 2"
+
+#~ msgid "Level 3"
+#~ msgstr "Nivell 3"
+
+#~ msgid "Core selection"
+#~ msgstr "Selecció del nucli"
+
+#~ msgid "Number of cores"
+#~ msgstr "Número de nuclis"
+
+#~ msgid "Motherboard"
+#~ msgstr "Placa mare"
+
+#~ msgid "Board"
+#~ msgstr "Tauler"
+
+#~ msgid "Bios"
+#~ msgstr "Bios"
+
+#~ msgid "Version"
+#~ msgstr "Versió"
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Memory"
+#~ msgstr "Memòria"
+
+#~ msgid "Ram"
+#~ msgstr "Ram"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Total physical memory available."
+#~ msgstr "Memòria física total disponible"
+
+#~ msgid "Available"
+#~ msgstr "Disponible"
+
+#~ msgid ""
+#~ "The actual amount of available memory that can be given instantly to "
+#~ "processes that request more memory in bytes; this is calculated by "
+#~ "summing different memory values (Mb)"
+#~ msgstr ""
+#~ "La quantitat de memòria actual disponible que pot ser proporcionada de forma "
+#~ "instantànea als processos que necessiten més memòria en bytes; això es "
+#~ "calcula sumant els diferents valors de memòria (Mb)"
+
+#~ msgid "Used"
+#~ msgstr "Usada"
+
+#~ msgid ""
+#~ "Memory used, calculated differently depending on the platform and "
+#~ "designed for informational purposes only (Mb)"
+#~ msgstr ""
+#~ "Memòria usada, caluculada de forma diferent en funció de la plataforma "
+#~ "i pensada només amb propòsits informatius (Mb)"
+
+#~ msgid "Free"
+#~ msgstr "Lliure"
+
+#~ msgid "Memory not being used at all (zeroed) that is readily available (Mb)"
+#~ msgstr "Memòria disponible que no s'està utilitzant en absolut (Mb)"
+
+#~ msgid "Active"
+#~ msgstr "Activa"
+
+#~ msgid ""
+#~ "Memory currently in use or very recently used, and so it is in RAM (Mb)"
+#~ msgstr ""
+#~ "Memòria que està en ús o ha estat utilitzada recentment, i per tant en RAM (Mb)"
+
+#~ msgid "Inactive"
+#~ msgstr "Inactiva"
+
+#~ msgid "Memory that is marked as not used."
+#~ msgstr "Memòria que està marcada com a no utilitzada."
+
+#~ msgid "Buffers"
+#~ msgstr "Memòria intermitja"
+
+#~ msgid "Ccache for things like file system metadata. (Mb)"
+#~ msgstr ""
+#~ "Memòria cau per a usos com la metainformació del sistema de fitxers (Mb)"
+
+#~ msgid "Cached"
+#~ msgstr "Emmagatzemada a la memòria cau"
+
+#~ msgid "Cache for various things (Mb)"
+#~ msgstr "Memòria cau per a diversos usos (Mb)"
+
+#~ msgid "Swap"
+#~ msgstr "Memòria d'intercanvi"
+
+#~ msgid "Total physical memory available in Mb."
+#~ msgstr "Memòria física total disponible en Mb."
+
+#~ msgid "Used swap memory in Mb"
+#~ msgstr "Memòria d'intercanvi utilitzada en Mb"
+
+#~ msgid "Free swap memory in Mb"
+#~ msgstr "Memòria d'intercanvi lliure en Mb"
+
+#~ msgid "Sin"
+#~ msgstr "Entrada"
+
+#~ msgid "The number of Mb the system has swapped in from disk (cumulative)"
+#~ msgstr "Número de Mb del sistema que ha passat a la memòria d'intercanvi"
+
+#~ msgid "Sout"
+#~ msgstr "Sortida"
+
+#~ msgid "The number of Mb the system has swapped out from disk (cumulative)"
+#~ msgstr "Número de Mb del sistema que ha sortit de la memòria d'intercanvi"
+
+#~ msgid "System"
+#~ msgstr "Sistema"
+
+#~ msgid "Architecture"
+#~ msgstr "Arquitectura"
+
+#~ msgid "Kernel"
+#~ msgstr "Nucli"
+
+#~ msgid "GCC Version"
+#~ msgstr "Versió de GCC"
+
+#~ msgid "Uptime"
+#~ msgstr "Temps en línia"
+
+#~ msgid "Xorg version"
+#~ msgstr "Versió Xorg"
+
+#~ msgid "Resolution"
+#~ msgstr "Resolució"
+
+#~ msgid "Distribution"
+#~ msgstr "Distribució"
+
+#~ msgid "Desktop environment"
+#~ msgstr "Entorn d'escriptori"
+
+#~ msgid "Graphic"
+#~ msgstr "Gràfica"
+
+#~ msgid "Graphic Controller"
+#~ msgstr "Controlador gràfica"
+
+#~ msgid "OpenGL Vendor"
+#~ msgstr "Fabricant OpenGL"
+
+#~ msgid "OpenGL renderer"
+#~ msgstr "Renderitzador OpenGL"
+
+#~ msgid "OpenGL version"
+#~ msgstr "Versió d'OpenGL"
+
+#~ msgid "Battery"
+#~ msgstr "Bateria"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Fabricant"
+
+#~ msgid "Model name"
+#~ msgstr "Model"
+
+#~ msgid "Serial number"
+#~ msgstr "Número de sèrie"
+
+#~ msgid "Technology"
+#~ msgstr "Tecnologia"
+
+#~ msgid "Estimated time remaining"
+#~ msgstr "Temps restant estimat"
+
+#~ msgid "Estimated battery discharge time"
+#~ msgstr "Temps estimat de descàrrega de bateria"
+
+#~ msgid "Battery level"
+#~ msgstr "Nivell de bateria"
+
+#~ msgid "Capacity level"
+#~ msgstr "Nivell de capacitat"
+
+#~ msgid "Voltage now"
+#~ msgstr "Voltatge actual"
+
+#~ msgid "Minimum voltage design"
+#~ msgstr "Voltatge de disseny mínim"
+
+#~ msgid "Charge now"
+#~ msgstr "Càrrega actual"
+
+#~ msgid "Charge full"
+#~ msgstr "Càrrega completa"
+
+#~ msgid "Charge full design"
+#~ msgstr "Càrrega completa de disseny"
+
+#~ msgid "Current now"
+#~ msgstr "Corrent actual"
+
+#~ msgid "Disks"
+#~ msgstr "Discs"
+
+#~ msgid "About"
+#~ msgstr "Sobre"
+
+#~ msgid " %"
+#~ msgstr "%"
+
+#~ msgid " V"
+#~ msgstr " V"
+
+#~ msgid " Ah"
+#~ msgstr " Ah"
+
+#~ msgid " A"
+#~ msgstr " A"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "Device"
+#~ msgstr "Dispositiu"
+
+#~ msgid "Mount Point"
+#~ msgstr "Punt de muntatge"
+
+#~ msgid "File System Type"
+#~ msgstr "Tipus de sistema de fitxers"
+
+#~ msgid "Options"
+#~ msgstr "Opcions"
+
+#~ msgid "Total space"
+#~ msgstr "Espai total"
+
+#~ msgid "Used space"
+#~ msgstr "Espai en ús"
+
+#~ msgid "Free space"
+#~ msgstr "Espai lliure"
+
+#, fuzzy
+#~ msgid "Keyboard"
+#~ msgstr "Placa mare"
+
+#~ msgid "Pda"
+#~ msgstr "Pda"
+
+#~ msgid "Phone"
+#~ msgstr "Telèfon"
+
+#~ msgid "Charging"
+#~ msgstr "Carregant"
+
+#~ msgid "Discharging"
+#~ msgstr "Descarregant"
+
+#~ msgid "Empty"
+#~ msgstr "Buida"
+
+#~ msgid "Fully charged"
+#~ msgstr "Completament carregat"
+
+#~ msgid "Pending charge"
+#~ msgstr "Pendent de càrrega"
+
+#~ msgid "Pending discharge"
+#~ msgstr "Pendent de descàrrega"
+
+#~ msgid "Lithium ion"
+#~ msgstr "Ió Liti"
+
+#~ msgid "Lithium polymer"
+#~ msgstr "Liti polímer"
+
+#~ msgid "Lithium iron phosphate"
+#~ msgstr "Liti ferro fosfat"
+
+#~ msgid "Lead acid"
+#~ msgstr "Plom àcid"
+
+#~ msgid "Nickel cadmium"
+#~ msgstr "Niquel cadmi"
+
+#~ msgid "Nickel metal hydride"
+#~ msgstr "Niquel metall híbrid"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
