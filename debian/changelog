@@ -1,9 +1,9 @@
-xpander (1.0.-0extras18.10.1) cosmic urgency=medium
+xpander (1.0.3-0extras18.10.0) cosmic; urgency=medium
 
   * Addition of catalan translation by @marcelcosta
   * added basque translation by @xabiliza
 
- -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Tue, 05 Mar 2019 21:34:25 +0100
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Tue, 05 Mar 2019 21:38:45 +0100
 
 xpander (1.0.2-0extras18.10.1) cosmic; urgency=medium
 
