@@ -1,0 +1,456 @@
+# Galician translations for cpu-g package.
+# Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the cpu-g package.
+# Damumfo <dani@damufo.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cpu-g - 0.15.2-1ubuntu0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-24 09:40+0100\n"
+"PO-Revision-Date: 2019-03-18 16:18+0100\n"
+"Last-Translator: Damufo <dani@damufo.com>\n"
+"Language-Team: Galician\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: src/xpander.py:39
+msgid "Pause Expansion"
+msgstr "Pausar expansión"
+
+#: src/xpander.py:41
+msgid "Manager"
+msgstr "Configuración"
+
+#: src/xpander.py:43
+msgid "Quit"
+msgstr "Saír"
+
+#: src/gtkui.py:139
+msgid "_Plain text"
+msgstr "Texto _simple"
+
+#: src/gtkui.py:142
+msgid "Command"
+msgstr "Orde"
+
+#: src/gtkui.py:144
+msgid "_Wrap text"
+msgstr "Texto _envoltorio"
+
+#: src/gtkui.py:154
+msgid "$| marks cursor position. $C inserts clipboard contents."
+msgstr "$| marca a posición do cursor. $C pega o contido do portapapeis"
+
+#: src/gtkui.py:156
+msgid "_Abbreviation:"
+msgstr "_Abreviatura"
+
+#: src/gtkui.py:162
+msgid "_Send via:"
+msgstr "Enviar _vía:"
+
+#: src/gtkui.py:172
+msgid "Filter by window _class:"
+msgstr "Filtrar por _clase de xanela:"
+
+#: src/gtkui.py:177 src/gtkui.py:187
+msgid "Select"
+msgstr "Seleccione"
+
+#: src/gtkui.py:182
+msgid "_Filter by window title:"
+msgstr "_Filtra polo título da xanela"
+
+#: src/gtkui.py:191
+msgid "Case _sensitive"
+msgstr "_Diferencia as maiúsculas e minúsculas"
+
+#: src/gtkui.py:194
+msgid "Save"
+msgstr "Gardar"
+
+#: src/gtkui.py:202
+msgid "Phrase _directory (needs restart)"
+msgstr "_Cartafol de frases (precisa reiniciar)"
+
+#: src/gtkui.py:206
+msgid "Phrase directory"
+msgstr "Cartafol de frases"
+
+#: src/gtkui.py:212
+msgid "Prefer light _indicator icon theme"
+msgstr "Prefire o tema de iconas claro para o _indicador"
+
+#: src/gtkui.py:221
+msgid "_Warn when deleting a folder"
+msgstr "_Avisar cando vaia a eliminar un cartafol"
+
+#: src/gtkui.py:231
+msgid "_Pause expansion"
+msgstr "_Pausar a expansión"
+
+#: src/gtkui.py:243 src/gtkui.py:259
+msgid "Set"
+msgstr "Estabelecer"
+
+#: src/gtkui.py:247
+msgid "_Show manager"
+msgstr "_Amosar o xestor"
+
+#: src/gtkui.py:339
+msgid "Illegal characters"
+msgstr "Caracteres ilegais"
+
+#: src/gtkui.py:341
+msgid " are not allowed."
+msgstr " non están permitidos."
+
+#: src/gtkui.py:447 src/gtkui.py:451
+msgid "New_phrase"
+msgstr "Nova_frase"
+
+#: src/gtkui.py:461 src/gtkui.py:465
+msgid "New folder"
+msgstr "Novo cartafol"
+
+#: src/gtkui.py:483
+msgid "Delete folder"
+msgstr "Eliminar cartafol"
+
+#: src/gtkui.py:485
+msgid "This will also delete the phrases in this folder."
+msgstr "Isto tamén borrará as frases no cartafol."
+
+#: src/gtkui.py:594
+msgid "Restart app"
+msgstr "Reiniciar o aplicativo"
+
+#: src/gtkui.py:595
+msgid ""
+"Phrase editing and creation will not function corectly until application is "
+"restarted."
+msgstr ""
+"A modificación e creación de frases non funcionará correctamente até que se "
+"reinicie o aplicativo."
+
+#~ msgid "Processor"
+#~ msgstr "Procesador"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Vendor"
+#~ msgstr "Fabricante"
+
+#~ msgid "Model"
+#~ msgstr "Modelo"
+
+#~ msgid "Core Speed"
+#~ msgstr "Velocidad del núcleo"
+
+#~ msgid "CPU"
+#~ msgstr "CPU"
+
+#~ msgid "Family"
+#~ msgstr "Familia"
+
+#~ msgid "Level 2"
+#~ msgstr "Nivel 2"
+
+#~ msgid "Level 3"
+#~ msgstr "Nivel 3"
+
+#~ msgid "Core selection"
+#~ msgstr "Selección del núcleo"
+
+#~ msgid "Number of cores"
+#~ msgstr "Número de núclos"
+
+#~ msgid "Motherboard"
+#~ msgstr "Placa madre"
+
+#~ msgid "Board"
+#~ msgstr "Tablero"
+
+#~ msgid "Bios"
+#~ msgstr "Bios"
+
+#~ msgid "Version"
+#~ msgstr "Versión"
+
+#~ msgid "Date"
+#~ msgstr "Fecha"
+
+#~ msgid "Memory"
+#~ msgstr "Memoria"
+
+#~ msgid "Ram"
+#~ msgstr "Ram"
+
+#~ msgid "Total"
+#~ msgstr "Total"
+
+#~ msgid "Total physical memory available."
+#~ msgstr "Memoria física total disponible"
+
+#~ msgid "Available"
+#~ msgstr "Disponible"
+
+#~ msgid ""
+#~ "The actual amount of available memory that can be given instantly to "
+#~ "processes that request more memory in bytes; this is calculated by "
+#~ "summing different memory values (Mb)"
+#~ msgstr ""
+#~ "La cantida de memoria disponible actual que puede ser ofrecida de forma "
+#~ "instantánea a los procesos que necesitan mas memoria en bytes; esto se "
+#~ "calcula sumando los diferentes valores de memoria (Mb)"
+
+#~ msgid "Used"
+#~ msgstr "Usada"
+
+#~ msgid ""
+#~ "Memory used, calculated differently depending on the platform and "
+#~ "designed for informational purposes only (Mb)"
+#~ msgstr ""
+#~ "Memoria usada, caluculada de forma diferente en función de la plataforma "
+#~ "y pensada solo con propósitos informativos (Mb)"
+
+#~ msgid "Free"
+#~ msgstr "Libre"
+
+#~ msgid "Memory not being used at all (zeroed) that is readily available (Mb)"
+#~ msgstr "Memoria que no se está utilizando en absotulo (Mb)"
+
+#~ msgid "Active"
+#~ msgstr "Activa"
+
+#~ msgid ""
+#~ "Memory currently in use or very recently used, and so it is in RAM (Mb)"
+#~ msgstr ""
+#~ "Memoria que está en uso o ha sido usada recientemente, así es RAM (Mb)"
+
+#~ msgid "Inactive"
+#~ msgstr "Inactiva"
+
+#~ msgid "Memory that is marked as not used."
+#~ msgstr "Memoria que está marcada como noutilizada."
+
+#~ msgid "Buffers"
+#~ msgstr "Memoria intermedia"
+
+#~ msgid "Ccache for things like file system metadata. (Mb)"
+#~ msgstr ""
+#~ "Cache para usos como la metainformación del sistema de archivos (Mb)"
+
+#~ msgid "Cached"
+#~ msgstr "Cacheada"
+
+#~ msgid "Cache for various things (Mb)"
+#~ msgstr "Caché para usos varios (Mb)"
+
+#~ msgid "Swap"
+#~ msgstr "Memoria de intercambio"
+
+#~ msgid "Total physical memory available in Mb."
+#~ msgstr "Memoria física total disponible en Mb."
+
+#~ msgid "Used swap memory in Mb"
+#~ msgstr "Memoria de intercambio utilizada en Mb"
+
+#~ msgid "Free swap memory in Mb"
+#~ msgstr "Memoria de intercambio libre en Mb"
+
+#~ msgid "Sin"
+#~ msgstr "Entrada"
+
+#~ msgid "The number of Mb the system has swapped in from disk (cumulative)"
+#~ msgstr "Número de Mb del sistema que ha pasado a la memoria de intercambio"
+
+#~ msgid "Sout"
+#~ msgstr "Salida"
+
+#~ msgid "The number of Mb the system has swapped out from disk (cumulative)"
+#~ msgstr "Número de Mb del sistema que ha salido de la memoria de intercambio"
+
+#~ msgid "System"
+#~ msgstr "Systema"
+
+#~ msgid "Architecture"
+#~ msgstr "Arquitectura"
+
+#~ msgid "Kernel"
+#~ msgstr "Núcleo"
+
+#~ msgid "GCC Version"
+#~ msgstr "Versión de GCC"
+
+#~ msgid "Uptime"
+#~ msgstr "Tiempo en marcha"
+
+#~ msgid "Xorg version"
+#~ msgstr "Versión Xorg"
+
+#~ msgid "Resolution"
+#~ msgstr "Resolución"
+
+#~ msgid "Distribution"
+#~ msgstr "Distribución"
+
+#~ msgid "Desktop environment"
+#~ msgstr "Entorno de escritorio"
+
+#~ msgid "Graphic"
+#~ msgstr "Gráfica"
+
+#~ msgid "Graphic Controller"
+#~ msgstr "Controladora gráfica"
+
+#~ msgid "OpenGL Vendor"
+#~ msgstr "Fabricante OpenGL"
+
+#~ msgid "OpenGL renderer"
+#~ msgstr "Renderizador OpenGL"
+
+#~ msgid "OpenGL version"
+#~ msgstr "Versión de OpenGL"
+
+#~ msgid "Battery"
+#~ msgstr "Batería"
+
+#~ msgid "Manufacturer"
+#~ msgstr "Fabricante"
+
+#~ msgid "Model name"
+#~ msgstr "Modelo"
+
+#~ msgid "Serial number"
+#~ msgstr "Número de serie"
+
+#~ msgid "Technology"
+#~ msgstr "Tecnología"
+
+#~ msgid "Estimated time remaining"
+#~ msgstr "Tiempo restante estimado"
+
+#~ msgid "Estimated battery discharge time"
+#~ msgstr "Tiempo estimado de descarga de batería"
+
+#~ msgid "Battery level"
+#~ msgstr "Nivel de batería"
+
+#~ msgid "Capacity level"
+#~ msgstr "Nivel de capacidad"
+
+#~ msgid "Voltage now"
+#~ msgstr "Voltage actual"
+
+#~ msgid "Minimum voltage design"
+#~ msgstr "Voltage de diseño mínimo"
+
+#~ msgid "Charge now"
+#~ msgstr "Carga actual"
+
+#~ msgid "Charge full"
+#~ msgstr "Carga completa"
+
+#~ msgid "Charge full design"
+#~ msgstr "Carga completa de diseño"
+
+#~ msgid "Current now"
+#~ msgstr "Corriente actual"
+
+#~ msgid "Disks"
+#~ msgstr "Discos"
+
+#~ msgid "About"
+#~ msgstr "Acerca de"
+
+#~ msgid " %"
+#~ msgstr "%"
+
+#~ msgid " V"
+#~ msgstr " V"
+
+#~ msgid " Ah"
+#~ msgstr " Ah"
+
+#~ msgid " A"
+#~ msgstr " A"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "Device"
+#~ msgstr "Dispositivo"
+
+#~ msgid "Mount Point"
+#~ msgstr "Punto de montaje"
+
+#~ msgid "File System Type"
+#~ msgstr "Tipo de sistema de archivos"
+
+#~ msgid "Options"
+#~ msgstr "Opciones"
+
+#~ msgid "Total space"
+#~ msgstr "Espacio total"
+
+#~ msgid "Used space"
+#~ msgstr "Espacio en uso"
+
+#~ msgid "Free space"
+#~ msgstr "Espacio libre"
+
+#, fuzzy
+#~ msgid "Keyboard"
+#~ msgstr "Placa madre"
+
+#~ msgid "Pda"
+#~ msgstr "Pda"
+
+#~ msgid "Phone"
+#~ msgstr "Teléfono"
+
+#~ msgid "Charging"
+#~ msgstr "Cargando"
+
+#~ msgid "Discharging"
+#~ msgstr "Descargando"
+
+#~ msgid "Empty"
+#~ msgstr "Vacía"
+
+#~ msgid "Fully charged"
+#~ msgstr "Completamente cargada"
+
+#~ msgid "Pending charge"
+#~ msgstr "Pendiente de carga"
+
+#~ msgid "Pending discharge"
+#~ msgstr "Pendiente de descarga"
+
+#~ msgid "Lithium ion"
+#~ msgstr "Ion Litio"
+
+#~ msgid "Lithium polymer"
+#~ msgstr "Litio polímero"
+
+#~ msgid "Lithium iron phosphate"
+#~ msgstr "Litio hierro fosfato"
+
+#~ msgid "Lead acid"
+#~ msgstr "Plomo ácido"
+
+#~ msgid "Nickel cadmium"
+#~ msgstr "Niquel cadmio"
+
+#~ msgid "Nickel metal hydride"
+#~ msgstr "Niquel metal híbrido"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
