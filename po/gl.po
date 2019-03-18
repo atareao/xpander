@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: cpu-g - 0.15.2-1ubuntu0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-24 09:40+0100\n"
-"PO-Revision-Date: 2019-03-18 16:18+0100\n"
+"PO-Revision-Date: 2019-03-18 16:23+0100\n"
 "Last-Translator: Damufo <dani@damufo.com>\n"
 "Language-Team: Galician\n"
 "Language: gl\n"
@@ -48,7 +48,7 @@ msgstr "$| marca a posición do cursor. $C pega o contido do portapapeis"
 
 #: src/gtkui.py:156
 msgid "_Abbreviation:"
-msgstr "_Abreviatura"
+msgstr "_Abreviatura:"
 
 #: src/gtkui.py:162
 msgid "_Send via:"
