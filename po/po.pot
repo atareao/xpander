@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-19 19:23+0100\n"
+"POT-Creation-Date: 2019-03-19 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,129 +17,124 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:57
-#: /home/damufo/pro_linux/xpander/src/xpander.py:41
+#: src/gtkui.py:57 src/xpander.py:41
 msgid "Manager"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:61
+#: src/gtkui.py:61
 msgid "Preferences"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:139
+#: src/gtkui.py:139
 msgid "_Plain text"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:142
+#: src/gtkui.py:142
 msgid "Command"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:144
+#: src/gtkui.py:144
 msgid "_Wrap text"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:154
+#: src/gtkui.py:154
 msgid "$| marks cursor position. $C inserts clipboard contents."
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:156
+#: src/gtkui.py:156
 msgid "_Abbreviation:"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:162
+#: src/gtkui.py:162
 msgid "_Send via:"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:172
+#: src/gtkui.py:172
 msgid "Filter by window _class:"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:177
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:187
+#: src/gtkui.py:177 src/gtkui.py:187
 msgid "Select"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:182
+#: src/gtkui.py:182
 msgid "_Filter by window title:"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:191
+#: src/gtkui.py:191
 msgid "Case _sensitive"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:194
+#: src/gtkui.py:194
 msgid "Save"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:202
+#: src/gtkui.py:202
 msgid "Phrase _directory (needs restart)"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:206
+#: src/gtkui.py:206
 msgid "Phrase directory"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:212
+#: src/gtkui.py:212
 msgid "Prefer light _indicator icon theme"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:221
+#: src/gtkui.py:221
 msgid "_Warn when deleting a folder"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:231
+#: src/gtkui.py:231
 msgid "_Pause expansion"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:243
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:259
+#: src/gtkui.py:243 src/gtkui.py:259
 msgid "Set"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:247
+#: src/gtkui.py:247
 msgid "_Show manager"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:339
+#: src/gtkui.py:339
 msgid "Illegal characters"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:341
+#: src/gtkui.py:341
 msgid " are not allowed."
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:447
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:451
+#: src/gtkui.py:447 src/gtkui.py:451
 msgid "New_phrase"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:461
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:465
+#: src/gtkui.py:461 src/gtkui.py:465
 msgid "New folder"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:483
+#: src/gtkui.py:483
 msgid "Delete folder"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:485
+#: src/gtkui.py:485
 msgid "This will also delete the phrases in this folder."
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:594
+#: src/gtkui.py:594
 msgid "Restart app"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:595
+#: src/gtkui.py:595
 msgid ""
 "Phrase editing and creation will not function corectly until application is "
 "restarted."
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/xpander.py:39
+#: src/xpander.py:39
 msgid "Pause Expansion"
 msgstr ""
 
-#: /home/damufo/pro_linux/xpander/src/xpander.py:43
+#: src/xpander.py:43
 msgid "Quit"
 msgstr ""
