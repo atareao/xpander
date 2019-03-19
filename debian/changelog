@@ -1,3 +1,9 @@
+xpander (1.0.4-0extras18.10.0)  cosmic; urgency=medium
+
+  * added galician translation by @damufo
+
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Tue, 19 Mar 2019 08:31:47 +0100
+
 xpander (1.0.3-0extras18.10.0) cosmic; urgency=medium
 
   * Addition of catalan translation by @marcelcosta
