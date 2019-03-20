@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-19 08:31+0100\n"
+"POT-Creation-Date: 2019-03-19 19:37+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,16 +17,12 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/xpander.py:39
-msgid "Pause Expansion"
-msgstr ""
-
-#: src/xpander.py:41
+#: src/gtkui.py:57 src/xpander.py:41
 msgid "Manager"
 msgstr ""
 
-#: src/xpander.py:43
-msgid "Quit"
+#: src/gtkui.py:61
+msgid "Preferences"
 msgstr ""
 
 #: src/gtkui.py:139
@@ -133,4 +129,12 @@ msgstr ""
 msgid ""
 "Phrase editing and creation will not function corectly until application is "
 "restarted."
+msgstr ""
+
+#: src/xpander.py:39
+msgid "Pause Expansion"
+msgstr ""
+
+#: src/xpander.py:43
+msgid "Quit"
 msgstr ""

@@ -54,11 +54,11 @@ class ManagerUI(Gtk.Window):
         stack = Gtk.Stack(
             transition_type=Gtk.StackTransitionType.SLIDE_LEFT_RIGHT)
         paned = Gtk.Paned()
-        stack.add_titled(paned, 'manager', 'Manager')
+        stack.add_titled(paned, 'manager', _('Manager'))
         prefs_grid = Gtk.Grid(
             column_spacing=10, row_spacing=10, margin=10,
             halign=Gtk.Align.START)
-        stack.add_titled(prefs_grid, 'prefs', 'Preferences')
+        stack.add_titled(prefs_grid, 'prefs', _('Preferences'))
         stack_switcher = Gtk.StackSwitcher(halign=Gtk.Align.CENTER)
         stack_switcher.set_stack(stack)
         main_box.pack_start(stack_switcher, False, True, 0)
