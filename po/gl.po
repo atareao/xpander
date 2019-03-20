@@ -1,7 +1,7 @@
 # Galician translations for cpu-g package.
 # Copyright (C) 2019 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the cpu-g package.
-# Damumfo <dani@damufo.com>, 2019.
+# damufo <dani@damufo.com>, 2019.
 #
 msgid ""
 msgstr ""
