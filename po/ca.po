@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xpander - 0.15.2-1ubuntu0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-02 09:02+0100\n"
+"POT-Creation-Date: 2019-12-29 20:52+0100\n"
 "PO-Revision-Date: 2019-03-02 09:02+0100\n"
 "Last-Translator: Marcel <marcelcosta@mcosta.cat>\n"
 "Language-Team: Catalan\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Pause Expansion"
 msgstr "Pausar Expansió"
 
-#: src/xpander.py:41
+#: src/xpander.py:41 src/gtkui.py:58
 msgid "Manager"
 msgstr "Configuració"
 
@@ -29,113 +29,118 @@ msgstr "Configuració"
 msgid "Quit"
 msgstr "Sortir"
 
-#: src/gtkui.py:139
+#: src/gtkui.py:62
+msgid "Preferences"
+msgstr ""
+
+#: src/gtkui.py:140
 msgid "_Plain text"
 msgstr "Text _pla"
 
-#: src/gtkui.py:142
+#: src/gtkui.py:143
 msgid "Command"
 msgstr "Ordre"
 
-#: src/gtkui.py:144
+#: src/gtkui.py:145
 msgid "_Wrap text"
 msgstr "Text _envoltori"
 
-#: src/gtkui.py:154
+#: src/gtkui.py:155
 msgid "$| marks cursor position. $C inserts clipboard contents."
-msgstr "$| marca la posició del cursor. $C enganxa el contingut del porta-retalls"
+msgstr ""
+"$| marca la posició del cursor. $C enganxa el contingut del porta-retalls"
 
-#: src/gtkui.py:156
+#: src/gtkui.py:157
 msgid "_Abbreviation:"
 msgstr "_Abreviatura"
 
-#: src/gtkui.py:162
+#: src/gtkui.py:163
 msgid "_Send via:"
 msgstr "Enviar _via:"
 
-#: src/gtkui.py:172
+#: src/gtkui.py:173
 msgid "Filter by window _class:"
 msgstr "Filtrar per _classe de finestra:"
 
-#: src/gtkui.py:177 src/gtkui.py:187
+#: src/gtkui.py:178 src/gtkui.py:188
 msgid "Select"
 msgstr "Selecciona"
 
-#: src/gtkui.py:182
+#: src/gtkui.py:183
 msgid "_Filter by window title:"
 msgstr "_Filtra pel títol de la finestra"
 
-#: src/gtkui.py:191
+#: src/gtkui.py:193
 msgid "Case _sensitive"
 msgstr "_Sensible a majúscules i minúscules"
 
-#: src/gtkui.py:194
+#: src/gtkui.py:196
 msgid "Save"
 msgstr "Guardar"
 
-#: src/gtkui.py:202
+#: src/gtkui.py:204
 msgid "Phrase _directory (needs restart)"
 msgstr "_Directori de frases (necessita reiniciar)"
 
-#: src/gtkui.py:206
+#: src/gtkui.py:208
 msgid "Phrase directory"
 msgstr "Directori de frases"
 
-#: src/gtkui.py:212
+#: src/gtkui.py:214
 msgid "Prefer light _indicator icon theme"
 msgstr "Prefereixes el tema de icones clar per l'_indicador"
 
-#: src/gtkui.py:221
+#: src/gtkui.py:223
 msgid "_Warn when deleting a folder"
 msgstr "_Avisa'm quan vagi a borrar una carpeta"
 
-#: src/gtkui.py:231
+#: src/gtkui.py:233
 msgid "_Pause expansion"
 msgstr "_Pausar l'expansió"
 
-#: src/gtkui.py:243 src/gtkui.py:259
+#: src/gtkui.py:245 src/gtkui.py:261
 msgid "Set"
 msgstr "Establir"
 
-#: src/gtkui.py:247
+#: src/gtkui.py:249
 msgid "_Show manager"
 msgstr "Mostrar la configuració"
 
-#: src/gtkui.py:339
+#: src/gtkui.py:341
 msgid "Illegal characters"
 msgstr "Caràcters il·legals"
 
-#: src/gtkui.py:341
+#: src/gtkui.py:343
 msgid " are not allowed."
 msgstr " no estan permesos"
 
-#: src/gtkui.py:447 src/gtkui.py:451
+#: src/gtkui.py:449 src/gtkui.py:453
 msgid "New_phrase"
 msgstr "Nova_frase"
 
-#: src/gtkui.py:461 src/gtkui.py:465
+#: src/gtkui.py:463 src/gtkui.py:467
 msgid "New folder"
 msgstr "Nova carpeta"
 
-#: src/gtkui.py:483
+#: src/gtkui.py:485
 msgid "Delete folder"
 msgstr "Eliminar carpeta"
 
-#: src/gtkui.py:485
+#: src/gtkui.py:487
 msgid "This will also delete the phrases in this folder."
 msgstr "Això també eliminarà les frases d'aquesta carpeta."
 
-#: src/gtkui.py:594
+#: src/gtkui.py:596
 msgid "Restart app"
 msgstr "Reiniciar l'applicació."
 
-#: src/gtkui.py:595
+#: src/gtkui.py:597
 msgid ""
 "Phrase editing and creation will not function corectly until application is "
 "restarted."
 msgstr ""
-"La creació i edició de la frase no funcionarà correctament fins que l'aplicació sigui"
-"reiniciada."
+"La creació i edició de la frase no funcionarà correctament fins que "
+"l'aplicació siguireiniciada."
 
 #~ msgid "Processor"
 #~ msgstr "Processador"
@@ -205,9 +210,9 @@ msgstr ""
 #~ "processes that request more memory in bytes; this is calculated by "
 #~ "summing different memory values (Mb)"
 #~ msgstr ""
-#~ "La quantitat de memòria actual disponible que pot ser proporcionada de forma "
-#~ "instantànea als processos que necessiten més memòria en bytes; això es "
-#~ "calcula sumant els diferents valors de memòria (Mb)"
+#~ "La quantitat de memòria actual disponible que pot ser proporcionada de "
+#~ "forma instantànea als processos que necessiten més memòria en bytes; això "
+#~ "es calcula sumant els diferents valors de memòria (Mb)"
 
 #~ msgid "Used"
 #~ msgstr "Usada"
@@ -216,8 +221,8 @@ msgstr ""
 #~ "Memory used, calculated differently depending on the platform and "
 #~ "designed for informational purposes only (Mb)"
 #~ msgstr ""
-#~ "Memòria usada, caluculada de forma diferent en funció de la plataforma "
-#~ "i pensada només amb propòsits informatius (Mb)"
+#~ "Memòria usada, caluculada de forma diferent en funció de la plataforma i "
+#~ "pensada només amb propòsits informatius (Mb)"
 
 #~ msgid "Free"
 #~ msgstr "Lliure"
@@ -231,7 +236,8 @@ msgstr ""
 #~ msgid ""
 #~ "Memory currently in use or very recently used, and so it is in RAM (Mb)"
 #~ msgstr ""
-#~ "Memòria que està en ús o ha estat utilitzada recentment, i per tant en RAM (Mb)"
+#~ "Memòria que està en ús o ha estat utilitzada recentment, i per tant en "
+#~ "RAM (Mb)"
 
 #~ msgid "Inactive"
 #~ msgstr "Inactiva"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cpu-g - 0.15.2-1ubuntu0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-24 09:40+0100\n"
+"POT-Creation-Date: 2019-12-29 20:52+0100\n"
 "PO-Revision-Date: 2019-02-01 20:59+0100\n"
 "Last-Translator: Lorenzo <lorenzo.carbonell.cerezo@gmail.com>\n"
 "Language-Team: Spanish\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Pause Expansion"
 msgstr "Pausar expansión"
 
-#: src/xpander.py:41
+#: src/xpander.py:41 src/gtkui.py:58
 msgid "Manager"
 msgstr "Configuración"
 
@@ -29,107 +29,111 @@ msgstr "Configuración"
 msgid "Quit"
 msgstr "Salir"
 
-#: src/gtkui.py:139
+#: src/gtkui.py:62
+msgid "Preferences"
+msgstr ""
+
+#: src/gtkui.py:140
 msgid "_Plain text"
 msgstr "Texto _plano"
 
-#: src/gtkui.py:142
+#: src/gtkui.py:143
 msgid "Command"
 msgstr "Comando"
 
-#: src/gtkui.py:144
+#: src/gtkui.py:145
 msgid "_Wrap text"
 msgstr "Texto _envoltorio"
 
-#: src/gtkui.py:154
+#: src/gtkui.py:155
 msgid "$| marks cursor position. $C inserts clipboard contents."
 msgstr "$| marca la posición del cursor. $C pega el contendio del portapapeles"
 
-#: src/gtkui.py:156
+#: src/gtkui.py:157
 msgid "_Abbreviation:"
 msgstr "_Abreviatura"
 
-#: src/gtkui.py:162
+#: src/gtkui.py:163
 msgid "_Send via:"
 msgstr "Enviar _via:"
 
-#: src/gtkui.py:172
+#: src/gtkui.py:173
 msgid "Filter by window _class:"
 msgstr "Filtrar por _clase de ventana:"
 
-#: src/gtkui.py:177 src/gtkui.py:187
+#: src/gtkui.py:178 src/gtkui.py:188
 msgid "Select"
 msgstr "Selecciona"
 
-#: src/gtkui.py:182
+#: src/gtkui.py:183
 msgid "_Filter by window title:"
 msgstr "_Filtra por el título de la ventana"
 
-#: src/gtkui.py:191
+#: src/gtkui.py:193
 msgid "Case _sensitive"
 msgstr "_Sensible a mayúsculas y minúsculas"
 
-#: src/gtkui.py:194
+#: src/gtkui.py:196
 msgid "Save"
 msgstr "Guardar"
 
-#: src/gtkui.py:202
+#: src/gtkui.py:204
 msgid "Phrase _directory (needs restart)"
 msgstr "_Directorio de frases (necesita reinicio)"
 
-#: src/gtkui.py:206
+#: src/gtkui.py:208
 msgid "Phrase directory"
 msgstr "Directorio de frases"
 
-#: src/gtkui.py:212
+#: src/gtkui.py:214
 msgid "Prefer light _indicator icon theme"
 msgstr "Prefieres el tema de iconos claro para el _indicador"
 
-#: src/gtkui.py:221
+#: src/gtkui.py:223
 msgid "_Warn when deleting a folder"
 msgstr "_Avísame cuando vaya a borrar una carpeta"
 
-#: src/gtkui.py:231
+#: src/gtkui.py:233
 msgid "_Pause expansion"
 msgstr "_Pausar la expansión"
 
-#: src/gtkui.py:243 src/gtkui.py:259
+#: src/gtkui.py:245 src/gtkui.py:261
 msgid "Set"
 msgstr "Establecer"
 
-#: src/gtkui.py:247
+#: src/gtkui.py:249
 msgid "_Show manager"
 msgstr "Mostrar la configuración"
 
-#: src/gtkui.py:339
+#: src/gtkui.py:341
 msgid "Illegal characters"
 msgstr "Caracteres ilegales"
 
-#: src/gtkui.py:341
+#: src/gtkui.py:343
 msgid " are not allowed."
 msgstr " no están permitidos"
 
-#: src/gtkui.py:447 src/gtkui.py:451
+#: src/gtkui.py:449 src/gtkui.py:453
 msgid "New_phrase"
 msgstr "Nueva_frase"
 
-#: src/gtkui.py:461 src/gtkui.py:465
+#: src/gtkui.py:463 src/gtkui.py:467
 msgid "New folder"
 msgstr "Nueva carpeta"
 
-#: src/gtkui.py:483
+#: src/gtkui.py:485
 msgid "Delete folder"
 msgstr ""
 
-#: src/gtkui.py:485
+#: src/gtkui.py:487
 msgid "This will also delete the phrases in this folder."
 msgstr ""
 
-#: src/gtkui.py:594
+#: src/gtkui.py:596
 msgid "Restart app"
 msgstr ""
 
-#: src/gtkui.py:595
+#: src/gtkui.py:597
 msgid ""
 "Phrase editing and creation will not function corectly until application is "
 "restarted."

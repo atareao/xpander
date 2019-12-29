@@ -15,7 +15,8 @@ from gi.repository import Gtk
 from gi.repository import Gdk
 from gi.repository import GLib
 from gi.repository import GObject
-import shared, CONSTANTS
+import shared
+import CONSTANTS
 from comun import _
 
 RESERVED_CHARS = '/\\<>:;*$%!?'
@@ -188,7 +189,8 @@ class ManagerUI(Gtk.Window):
         filter_title_label.set_mnemonic_widget(set_filter_title)
         self.right_grid.attach_next_to(
             set_filter_title, self.filter_title, Gtk.PositionType.RIGHT, 1, 1)
-        self.filter_case = Gtk.CheckButton.new_with_mnemonic(_('Case _sensitive'))
+        self.filter_case = Gtk.CheckButton.new_with_mnemonic(
+            _('Case _sensitive'))
         self.right_grid.attach_next_to(
             self.filter_case, set_filter_title, Gtk.PositionType.RIGHT, 1, 1)
         save_phrase = Gtk.Button(_('Save'))
@@ -602,7 +604,6 @@ function corectly until application is restarted.'))
         shared.cmanager.edit('indicator_theme_light', widget.get_active())
         shared.cmanager.write_config()
         self.emit('saved_config')
-
 
     def folder_warning_toggle(self, widget, pspec):
 

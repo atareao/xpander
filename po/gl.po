@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cpu-g - 0.15.2-1ubuntu0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-19 19:23+0100\n"
+"POT-Creation-Date: 2019-12-29 20:52+0100\n"
 "PO-Revision-Date: 2019-03-19 19:29+0100\n"
 "Last-Translator: Damufo <dani@damufo.com>\n"
 "Language-Team: Galician\n"
@@ -18,131 +18,126 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.11\n"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:57
-#: /home/damufo/pro_linux/xpander/src/xpander.py:41
+#: src/xpander.py:39
+msgid "Pause Expansion"
+msgstr "Pausar expansión"
+
+#: src/xpander.py:41 src/gtkui.py:58
 msgid "Manager"
 msgstr "Configuración"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:61
+#: src/xpander.py:43
+msgid "Quit"
+msgstr "Saír"
+
+#: src/gtkui.py:62
 msgid "Preferences"
 msgstr "Preferencias"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:139
+#: src/gtkui.py:140
 msgid "_Plain text"
 msgstr "Texto _simple"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:142
+#: src/gtkui.py:143
 msgid "Command"
 msgstr "Orde"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:144
+#: src/gtkui.py:145
 msgid "_Wrap text"
 msgstr "Texto _envoltorio"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:154
+#: src/gtkui.py:155
 msgid "$| marks cursor position. $C inserts clipboard contents."
 msgstr "$| marca a posición do cursor. $C pega o contido do portapapeis"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:156
+#: src/gtkui.py:157
 msgid "_Abbreviation:"
 msgstr "_Abreviatura:"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:162
+#: src/gtkui.py:163
 msgid "_Send via:"
 msgstr "Enviar _vía:"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:172
+#: src/gtkui.py:173
 msgid "Filter by window _class:"
 msgstr "Filtrar por _clase de xanela:"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:177
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:187
+#: src/gtkui.py:178 src/gtkui.py:188
 msgid "Select"
 msgstr "Seleccione"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:182
+#: src/gtkui.py:183
 msgid "_Filter by window title:"
 msgstr "_Filtra polo título da xanela"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:191
+#: src/gtkui.py:193
 msgid "Case _sensitive"
 msgstr "_Diferencia as maiúsculas e minúsculas"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:194
+#: src/gtkui.py:196
 msgid "Save"
 msgstr "Gardar"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:202
+#: src/gtkui.py:204
 msgid "Phrase _directory (needs restart)"
 msgstr "_Cartafol de frases (precisa reiniciar)"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:206
+#: src/gtkui.py:208
 msgid "Phrase directory"
 msgstr "Cartafol de frases"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:212
+#: src/gtkui.py:214
 msgid "Prefer light _indicator icon theme"
 msgstr "Prefire o tema de iconas claro para o _indicador"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:221
+#: src/gtkui.py:223
 msgid "_Warn when deleting a folder"
 msgstr "_Avisar cando vaia a eliminar un cartafol"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:231
+#: src/gtkui.py:233
 msgid "_Pause expansion"
 msgstr "_Pausar a expansión"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:243
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:259
+#: src/gtkui.py:245 src/gtkui.py:261
 msgid "Set"
 msgstr "Estabelecer"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:247
+#: src/gtkui.py:249
 msgid "_Show manager"
 msgstr "_Amosar o xestor"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:339
+#: src/gtkui.py:341
 msgid "Illegal characters"
 msgstr "Caracteres ilegais"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:341
+#: src/gtkui.py:343
 msgid " are not allowed."
 msgstr " non están permitidos."
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:447
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:451
+#: src/gtkui.py:449 src/gtkui.py:453
 msgid "New_phrase"
 msgstr "Nova_frase"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:461
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:465
+#: src/gtkui.py:463 src/gtkui.py:467
 msgid "New folder"
 msgstr "Novo cartafol"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:483
+#: src/gtkui.py:485
 msgid "Delete folder"
 msgstr "Eliminar cartafol"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:485
+#: src/gtkui.py:487
 msgid "This will also delete the phrases in this folder."
 msgstr "Isto tamén borrará as frases no cartafol."
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:594
+#: src/gtkui.py:596
 msgid "Restart app"
 msgstr "Reiniciar o aplicativo"
 
-#: /home/damufo/pro_linux/xpander/src/gtkui.py:595
+#: src/gtkui.py:597
 msgid ""
 "Phrase editing and creation will not function corectly until application is "
 "restarted."
 msgstr ""
 "A modificación e creación de frases non funcionará correctamente até que se "
 "reinicie o aplicativo."
-
-#: /home/damufo/pro_linux/xpander/src/xpander.py:39
-msgid "Pause Expansion"
-msgstr "Pausar expansión"
-
-#: /home/damufo/pro_linux/xpander/src/xpander.py:43
-msgid "Quit"
-msgstr "Saír"

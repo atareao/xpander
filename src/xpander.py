@@ -73,7 +73,7 @@ class Indicator(object):
         # If Gtk throws an error or just a warning, main_quit() might not
         # actually close the app
         sys.exit(0)
-    
+
     def load_preferences(self, *args):
         if shared.config['indicator_theme_light']:
             self.icon_actived = ICON_ACTIVED_LIGHT

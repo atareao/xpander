@@ -10,8 +10,6 @@ import gettext
 def is_package():
     return __file__.find('src') < 0
 
-######################################
-
 
 APP = 'xpander'
 APPNAME = 'xpander'
@@ -48,7 +46,6 @@ VERSION = line[pos + 1:posf].strip()
 if not is_package():
     VERSION = VERSION + '-src'
 
-####
 try:
     current_locale, encoding = locale.getdefaultlocale()
     language = gettext.translation(APP, LANGDIR, [current_locale])

@@ -1,8 +1,9 @@
-xpander (1.0.4-0extras18.10.1) cosmic; urgency=medium
+xpander (1.0.4-0extras19.10.0) eoan; urgency=medium
 
   * added galician translation by @damufo
+  * fixed minor bugs
 
- -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Wed, 20 Mar 2019 06:38:02 +0100
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 29 Dec 2019 20:51:52 +0100
 
 xpander (1.0.3-0extras18.10.0) cosmic; urgency=medium
 

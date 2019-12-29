@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cpu-g - 0.15.2-1ubuntu0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-03-05 21:35+0100\n"
+"POT-Creation-Date: 2019-12-29 20:52+0100\n"
 "PO-Revision-Date: 2019-02-28 10:53+0100\n"
 "Last-Translator: Xabi <xlizarralde@gmail.com>\n"
 "Language-Team: Basque\n"
@@ -22,7 +22,7 @@ msgstr ""
 msgid "Pause Expansion"
 msgstr "Zabaltzea eten"
 
-#: src/xpander.py:41
+#: src/xpander.py:41 src/gtkui.py:58
 msgid "Manager"
 msgstr "Konfigurazioa"
 
@@ -30,109 +30,113 @@ msgstr "Konfigurazioa"
 msgid "Quit"
 msgstr "Irten"
 
-#: src/gtkui.py:139
+#: src/gtkui.py:62
+msgid "Preferences"
+msgstr ""
+
+#: src/gtkui.py:140
 msgid "_Plain text"
 msgstr "Testu _laua"
 
-#: src/gtkui.py:142
+#: src/gtkui.py:143
 msgid "Command"
 msgstr "Komandoa"
 
-#: src/gtkui.py:144
+#: src/gtkui.py:145
 msgid "_Wrap text"
 msgstr "Testu _bilgarria"
 
-#: src/gtkui.py:154
+#: src/gtkui.py:155
 msgid "$| marks cursor position. $C inserts clipboard contents."
 msgstr ""
 "$| kurtsorearen posizioa markatzen du. $C paper-zorroaren edukia txertatzen "
 "du."
 
-#: src/gtkui.py:156
+#: src/gtkui.py:157
 msgid "_Abbreviation:"
 msgstr "_Laburdura"
 
-#: src/gtkui.py:162
+#: src/gtkui.py:163
 msgid "_Send via:"
 msgstr "_Bialdu via"
 
-#: src/gtkui.py:172
+#: src/gtkui.py:173
 msgid "Filter by window _class:"
 msgstr "Filtratu leihoaren _klase arabera"
 
-#: src/gtkui.py:177 src/gtkui.py:187
+#: src/gtkui.py:178 src/gtkui.py:188
 msgid "Select"
 msgstr "Aukeratu"
 
-#: src/gtkui.py:182
+#: src/gtkui.py:183
 msgid "_Filter by window title:"
 msgstr "_Filtratu leihoaren tituloaren arabera"
 
-#: src/gtkui.py:191
+#: src/gtkui.py:193
 msgid "Case _sensitive"
 msgstr "Maiuskula eta minuskulak bereizten ditu"
 
-#: src/gtkui.py:194
+#: src/gtkui.py:196
 msgid "Save"
 msgstr "Gorde"
 
-#: src/gtkui.py:202
+#: src/gtkui.py:204
 msgid "Phrase _directory (needs restart)"
 msgstr "Esaldien _direktorioa (berrabiarazteko beharra)"
 
-#: src/gtkui.py:206
+#: src/gtkui.py:208
 msgid "Phrase directory"
 msgstr "Esaldien direktorioa"
 
-#: src/gtkui.py:212
+#: src/gtkui.py:214
 msgid "Prefer light _indicator icon theme"
 msgstr "_Adierazlearen tema argia nahiago duzu"
 
-#: src/gtkui.py:221
+#: src/gtkui.py:223
 msgid "_Warn when deleting a folder"
 msgstr "_Abisatu karpeta bat ezabatzerakoan"
 
-#: src/gtkui.py:231
+#: src/gtkui.py:233
 msgid "_Pause expansion"
 msgstr "Zabaltzea _eten"
 
-#: src/gtkui.py:243 src/gtkui.py:259
+#: src/gtkui.py:245 src/gtkui.py:261
 msgid "Set"
 msgstr "Ezarri"
 
-#: src/gtkui.py:247
+#: src/gtkui.py:249
 msgid "_Show manager"
 msgstr "Konfigurazioa _erakutsi"
 
-#: src/gtkui.py:339
+#: src/gtkui.py:341
 msgid "Illegal characters"
 msgstr "Karaktere ez onartuak"
 
-#: src/gtkui.py:341
+#: src/gtkui.py:343
 msgid " are not allowed."
 msgstr "Ez daude onartuak."
 
-#: src/gtkui.py:447 src/gtkui.py:451
+#: src/gtkui.py:449 src/gtkui.py:453
 msgid "New_phrase"
 msgstr "Esaldi berria"
 
-#: src/gtkui.py:461 src/gtkui.py:465
+#: src/gtkui.py:463 src/gtkui.py:467
 msgid "New folder"
 msgstr "Karpeta berria"
 
-#: src/gtkui.py:483
+#: src/gtkui.py:485
 msgid "Delete folder"
 msgstr "Karpeta ezabatu"
 
-#: src/gtkui.py:485
+#: src/gtkui.py:487
 msgid "This will also delete the phrases in this folder."
 msgstr "Karpeta barruko esaldi danak ere ezabatuko dira."
 
-#: src/gtkui.py:594
+#: src/gtkui.py:596
 msgid "Restart app"
 msgstr "App berrabiarazi"
 
-#: src/gtkui.py:595
+#: src/gtkui.py:597
 msgid ""
 "Phrase editing and creation will not function corectly until application is "
 "restarted."

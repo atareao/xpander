@@ -13,7 +13,8 @@ except Exception as e:
     print(e)
     exit(-1)
 from gi.repository import Gtk, Gdk, GLib
-import shared, CONSTANTS
+import shared
+import CONSTANTS
 
 
 class Service(threading.Thread):

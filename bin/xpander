@@ -10,7 +10,8 @@ if __name__ == '__main__':
         sys.path.insert(1, '/opt/extras.ubuntu.com/xpander/share/xpander')
     else:
         sys.path.insert(1,
-                        os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '../src')))
+                        os.path.normpath(os.path.join(os.path.dirname(
+                            os.path.abspath(__file__)), '../src')))
     from xpander import main
     main()
 exit(0)
